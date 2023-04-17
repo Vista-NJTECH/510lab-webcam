@@ -1,4 +1,4 @@
-# Raspbery pi webcam
+# Raspberry pi webcam
 
 ## 1. Setup MJPG-Streamer
 
