@@ -117,7 +117,7 @@ chmod u+x ~/.local/bin/mjpg-streamer
 Add script to crontab:
 
 ```sh
-@reboot /home/pi/.local/bin/mjpg-streamer start && sleep 5 && /home/pi/.local/bin/mjpg-streamer restart
+@reboot /home/vista/.local/bin/mjpg-streamer start && sleep 5 && /home/vista/.local/bin/mjpg-streamer restart
 ```
 
 Reboot and open server at [http://localhost:8084](http://localhost:8084)
@@ -155,7 +155,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=vista
-ExecStart=/home/vista/Projects/webcam/telegramBot
+ExecStart=/home/vista/projects/webcam/telegramBot
 
 [Install]
 WantedBy=multi-user.target
